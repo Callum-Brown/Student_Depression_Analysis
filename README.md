@@ -16,7 +16,7 @@ The dataset contains various features related to student demographics, academic 
 ### Correlation Analysis
 I began by examining the relationships between variables through correlation analysis. The correlation matrix revealed several significant patterns:
 
-![Correlation Matrix](https://github.com/yourusername/project-name/blob/main/images/correlation_matrix.png)
+![correlation_matrix](https://github.com/user-attachments/assets/3276e821-4bad-49a5-8d70-258f7143619a)
 
 **Key Correlations:**
 - Strong positive correlation (0.77) between work pressure and job satisfaction
@@ -30,7 +30,8 @@ I began by examining the relationships between variables through correlation ana
 ### Covariance Analysis
 To further understand the variance and relationship between variables, I generated a covariance matrix:
 
-![Covariance Matrix](https://github.com/yourusername/project-name/blob/main/images/covariance_matrix.png)
+![heat_map](https://github.com/user-attachments/assets/c72fba25-867f-4b56-895f-10a1d75ad927)
+
 
 The covariance matrix highlights the absolute scale of relationships between variables, with notable high-variance relationships between:
 - ID and several other variables (likely a statistical artifact)
@@ -41,7 +42,7 @@ The covariance matrix highlights the absolute scale of relationships between var
 ## Feature Engineering & Selection
 Based on initial exploratory data analysis, I identified the most important predictive features using feature importance scores from a trained model:
 
-![Feature Importance](https://github.com/yourusername/project-name/blob/main/images/feature_importance.png)
+![feature_influence](https://github.com/user-attachments/assets/93f3ba71-5438-4569-9b24-8a0c9521dd16)
 
 **Top Predictors of Depression:**
 1. Age (F-score: 290.0)
@@ -128,27 +129,6 @@ This model can be used by:
 - Matplotlib
 - Seaborn
 
-## Project Structure
-```
-project-name/
-├── data/
-│   ├── raw/
-│   └── processed/
-├── notebooks/
-│   ├── 01_data_exploration.ipynb
-│   ├── 02_feature_engineering.ipynb
-│   └── 03_modeling.ipynb
-├── src/
-│   ├── data_processing/
-│   ├── feature_engineering/
-│   └── modeling/
-├── visualizations/
-│   ├── correlation_matrix.png
-│   ├── covariance_matrix.png
-│   └── feature_importance.png
-├── requirements.txt
-└── README.md
-```
 
 ## How to Use This Repository
 1. Clone the repository
